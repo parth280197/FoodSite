@@ -48,6 +48,7 @@
 
 /*small phones to small tablets: 480px 0 to 767px*/
 @media only screen and (max-width:767px) {
+<<<<<<< HEAD
     body {font-size: 16px;}
     section {padding: 30px 0px}
     .row,
@@ -84,6 +85,43 @@
     .plan-box {
         margin-bottom: 5px;
     }
+||||||| merged common ancestors
+
+=======
+    body {font-size: 16px;}
+    section {padding: 30px 0px}
+    .row,
+    .hero-text-box{padding: 0 4%;}
+    .col{
+        width: 100%;
+    }
+    .main-nav {display: none;}
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .works-step {margin-bottom: 20px;}
+    .works-step:last-of-type { margin-bottom: 20px;}
+    .work-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    .app-screen {
+        width:40%;
+    }
+    .steps-box:first-child {
+        text-align: center;
+    }
+    .text-container {
+        display: none;
+    }
+>>>>>>> b70c767e4097f862ba3351258371c3d98fb99340
 }
 
 /*small phones from: 0px to 480px*/
